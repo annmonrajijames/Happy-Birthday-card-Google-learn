@@ -38,7 +38,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun BirthdayCardPreview() { //a good practice, functions should always be named or renamed to describe their functionality.
     HappyBirthdayTheme {
         Greeting("Android")
     }
